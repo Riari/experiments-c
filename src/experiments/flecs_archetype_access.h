@@ -1,8 +1,6 @@
 #ifndef FLECS_ARCHETYPE_ACCESS_H
 #define FLECS_ARCHETYPE_ACCESS_H
 
-#include "types.h"
-
 void print_archetype(ecs_world_t *world, ecs_entity_t entity)
 {
     ecs_type_t type = ecs_get_type(world, entity);

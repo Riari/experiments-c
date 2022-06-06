@@ -1,9 +1,6 @@
 #ifndef C_RAND_RANGE_H
 #define C_RAND_RANGE_H
 
-#include <stdio.h>
-#include <stdlib.h>
-
 #define SEED 12340
 #define MIN 0
 #define MAX 4
