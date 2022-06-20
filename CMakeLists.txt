@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS NO)
 FetchContent_Declare(
     flecs
     GIT_REPOSITORY https://github.com/SanderMertens/flecs
-    GIT_TAG v2.4.8
+    GIT_TAG master
 )
 
 FetchContent_MakeAvailable(flecs)
